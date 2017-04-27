@@ -1,6 +1,6 @@
 # npmtest-xpath
 
-#### test coverage for  [xpath (v0.0.24)](https://github.com/goto100/xpath#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-xpath.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xpath.svg)](https://travis-ci.org/npmtest/node-npmtest-xpath)
+#### basic test coverage for  [xpath (v0.0.24)](https://github.com/goto100/xpath#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-xpath.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xpath.svg)](https://travis-ci.org/npmtest/node-npmtest-xpath)
 
 #### DOM 3 XPath implemention and helper for node.js.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xpath/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xpath/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xpath/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xpath/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xpath/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xpath/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xpath/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xpath/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xpath/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xpath/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xpath/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xpath/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
         "test": "nodeunit test.js"
     },
     "typings": "./xpath.d.ts",
-    "version": "0.0.24"
+    "version": "0.0.24",
+    "bin": {}
 }
 ```
 
